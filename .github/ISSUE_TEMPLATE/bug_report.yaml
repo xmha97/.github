@@ -1,0 +1,15 @@
+name: Bug Report
+description: Report a bug or crash
+body:
+- type: textarea
+  id: steps_to_reproduce
+  attributes:
+    label: Steps to Reproduce
+    description: "How do you trigger this bug? Please walk us through it step by step."
+    placeholder: |
+      1.
+      2.
+      3.
+      ...
+  validations:
+    required: false
